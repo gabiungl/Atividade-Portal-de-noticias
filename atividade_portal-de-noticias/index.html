@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech News</title>
+
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+<body class="page">
+  <header class="header">
+    <div class="container header__top">
+      <button class="header__action header__action--menu" type="button" aria-label="Abrir menu">
+        <svg class="header__icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h10" />
+        </svg>
+        <span class="header__action-text">Menu</span>
+      </button>
+
+      <a class="header__brand" href="#">TECH NEWS</a>
+
+      <button class="header__action header__action--search" type="button" aria-label="Buscar">
+        <span class="header__action-text">Buscar</span>
+        <svg class="header__icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" />
+          <path d="M20 20l-3.5-3.5" />
+        </svg>
+      </button>
+    </div>
+
+    <nav class="header__categories container" aria-label="Categorias">
+      <a class="header__category" href="#">Inteligencia Artificial</a>
+      <a class="header__category" href="#">Blockchain</a>
+      <a class="header__category" href="#">Hologramas</a>
+      <a class="header__category" href="#">Internet</a>
+      <a class="header__category" href="#">Vestiveis</a>
+      <a class="header__category" href="#">Realidade Aumentada</a>
+      <a class="header__category" href="#">Realidade Virtual</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container hero__grid">
+        <article class="card card--media card--featured" style="--card-image: url('../assets/img/Image (4).png');">
+          <div class="card__content">
+            <span class="tag tag--accent">Robotica</span>
+            <h2 class="card__title">
+              Robos domesticos comecam a ser adotados para tarefas diarias, prometendo mais conforto e eficiencia nas residencias.
+            </h2>
+          </div>
+        </article>
+
+        <div class="hero__side">
+          <article class="card card--media card--small" style="--card-image: url('../assets/img/Image (5).png');">
+            <div class="card__content">
+              <span class="tag">Hologramas</span>
+              <h3 class="card__title">Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!</h3>
+            </div>
+          </article>
+
+          <article class="card card--media card--small" style="--card-image: url('../assets/img/Image (6).png');">
+            <div class="card__content">
+              <span class="tag">Internet</span>
+              <h3 class="card__title">Tecnologia 6G chega as metropoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.</h3>
+            </div>
+          </article>
+
+          <article class="card card--media card--mini" style="--card-image: url('../assets/img/Image (7).png');">
+            <div class="card__content">
+              <span class="tag">Vestiveis</span>
+              <h3 class="card__title">Empresa lanca relogio inteligente capaz de monitorar a saude mental, oferecendo insights valiosos.</h3>
+            </div>
+          </article>
+
+          <article class="card card--media card--mini" style="--card-image: url('../assets/img/Image (8).png');">
+            <div class="card__content">
+              <span class="tag">Realidade Virtual</span>
+              <h3 class="card__title">Escolas adotam a tecnologia VR para proporcionar experiencias imersivas, transformando a aprendizagem tradicional.</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--trending">
+      <div class="container section__header">
+        <h2 class="section__title">Mais lidas da semana</h2>
+        <a class="section__link" href="#">Ver tudo</a>
+      </div>
+
+      <div class="container cards-row">
+        <article class="card card--media card--wide" style="--card-image: url('../assets/img/Image (9).png');">
+          <div class="card__content">
+            <span class="tag">Veiculos</span>
+            <h3 class="card__title">Prototipo de veiculo voador e apresentado, marcando o inicio da era dos transportes aereos pessoais.</h3>
+          </div>
+        </article>
+
+        <article class="card card--media card--wide" style="--card-image: url('../assets/img/Image (10).png');">
+          <div class="card__content">
+            <span class="tag">Hologramas</span>
+            <h3 class="card__title">Plataforma de videoconferencia apresenta nova funcao de hologramas, tornando as chamadas mais reais.</h3>
+          </div>
+        </article>
+
+        <article class="card card--media card--wide" style="--card-image: url('../assets/img/Image (11).png');">
+          <div class="card__content">
+            <span class="tag">Realidade Virtual</span>
+            <h3 class="card__title">Nova geracao de consoles de videogame e lancada, trazendo graficos ultra-realistas e experiencias imersivas.</h3>
+          </div>
+        </article>
+
+        <article class="card card--media card--wide" style="--card-image: url('../assets/img/Image (12).png');">
+          <div class="card__content">
+            <span class="tag">Internet</span>
+            <h3 class="card__title">Projeto busca oferecer internet de alta velocidade em areas remotas atraves de satelites.</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--ai">
+      <div class="container section__header">
+        <h2 class="section__title">Destaques de Inteligencia Artificial</h2>
+        <a class="section__link" href="#">Ver tudo</a>
+      </div>
+
+      <div class="container split">
+        <div class="split__main">
+          <article class="card card--list" style="--card-image: url('../assets/img/Image (14).png');">
+            <div class="card__body">
+              <span class="tag tag--accent">Inteligencia Artificial</span>
+              <h3 class="card__title">Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisao.</h3>
+              <p class="card__text">Em um avanco surpreendente da inteligencia artificial, uma empresa anunciou um algoritmo capaz de prever eventos futuros com notavel precisao. Descubra como essa tecnologia esta desafiando as fronteiras da previsao e quais sao as implicacoes para diversas areas.</p>
+            </div>
+            <div class="card__media" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card--list" style="--card-image: url('../assets/img/Image (15).png');">
+            <div class="card__body">
+              <span class="tag tag--accent">Inteligencia Artificial</span>
+              <h3 class="card__title">Dispositivo portatil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicacao global.</h3>
+              <p class="card__text">Em um mundo cada vez mais conectado, a comunicacao sem fronteiras e essencial. Surge um dispositivo portatil capaz de quebrar barreiras idiomaticas instantaneamente.</p>
+            </div>
+            <div class="card__media" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card--list" style="--card-image: url('../assets/img/Image (4).png');">
+            <div class="card__body">
+              <span class="tag tag--accent">Inteligencia Artificial</span>
+              <h3 class="card__title">Criados para auxiliar idosos, robos de companhia ganham popularidade, oferecendo suporte emocional e fisico.</h3>
+              <p class="card__text">A tecnologia nao so avanca, mas tambem busca tornar a vida mais significativa. Robos sociais projetados para oferecer apoio a idosos estao ganhando destaque.</p>
+            </div>
+            <div class="card__media" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card--list" style="--card-image: url('../assets/img/Image (16).png');">
+            <div class="card__body">
+              <span class="tag tag--accent">Inteligencia Artificial</span>
+              <h3 class="card__title">Aplicativo utiliza inteligencia artificial para ajudar usuarios a manterem o foco e aumentarem a produtividade no dia a dia.</h3>
+              <p class="card__text">No turbilhao da vida moderna, um aplicativo inovador surge como aliado indispensavel, utilizando algoritmos para aumentar a concentracao e eficiencia no cotidiano.</p>
+            </div>
+            <div class="card__media" aria-hidden="true"></div>
+          </article>
+        </div>
+
+        <aside class="split__aside">
+          <a class="ad" href="#">
+            <img class="ad__image" src="./assets/img/anuncio.png" alt="Anuncio Rocketseat" />
+          </a>
+
+          <div class="mini-list">
+            <div class="section__header section__header--compact">
+              <h3 class="section__title section__title--small">Viu isso aqui?</h3>
+              <a class="section__link" href="#">Ver tudo</a>
+            </div>
+
+            <article class="card card--compact" style="--card-image: url('../assets/img/Image (10).png');">
+              <div class="card__media" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="tag">Software</span>
+                <h4 class="card__title">Aplicativo de monitoramento ambiental ganha destaque, incentivando praticas ecologicas.</h4>
+              </div>
+            </article>
+
+            <article class="card card--compact" style="--card-image: url('../assets/img/Image (11).png');">
+              <div class="card__media" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="tag">Realidade Virtual</span>
+                <h4 class="card__title">Oculos de realidade virtual com feedback tatil proporcionam uma experiencia sensorial completa.</h4>
+              </div>
+            </article>
+
+            <article class="card card--compact" style="--card-image: url('../assets/img/Image (12).png');">
+              <div class="card__media" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="tag">Criptomoedas</span>
+                <h4 class="card__title">Surge uma nova moeda digital baseada em tecnologias sustentaveis.</h4>
+              </div>
+            </article>
+
+            <article class="card card--compact" style="--card-image: url('../assets/img/Image (17).png');">
+              <div class="card__media" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="tag">Drones</span>
+                <h4 class="card__title">Empresas de e-commerce implementam frota de drones para entregas rapidas.</h4>
+              </div>
+            </article>
+
+            <article class="card card--compact" style="--card-image: url('../assets/img/Image (18).png');">
+              <div class="card__media" aria-hidden="true"></div>
+              <div class="card__body">
+                <span class="tag">Impressao 3D</span>
+                <h4 class="card__title">Tecnologia inovadora permite a impressao 3D de orgaos humanos.</h4>
+              </div>
+            </article>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <p class="footer__text">Tech News © 2026</p>
+    </div>
+  </footer>
+</body>
+</html>
